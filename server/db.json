@@ -1,0 +1,32 @@
+{
+  "personnel": [
+    {
+      "id": 1,
+      "name": "Ali momeni",
+      "age": 20,
+      "kind":"producer",
+      "unit":"assembly"
+    },
+    {
+      "id": 2,
+      "name": "sorena javadi",
+      "age": 40,
+      "kind":"producer",
+      "unit":"pressing"
+    },
+    {
+      "id": 3,
+      "name": "miad sepehri",
+      "age": 10,
+      "kind":"logistic",
+      "unit":"storage"
+    },
+    {
+      "id": 4,
+      "name": "sardar saremi",
+      "age": 15,
+      "kind":"logistgtic",
+      "unit":"storage"
+    }
+  ]
+}
