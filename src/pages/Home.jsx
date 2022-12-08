@@ -5,7 +5,7 @@ const Home = () => {
     const {location}=useParams();
     console.log(location)
     return ( 
-        <div>home</div>
+        <div className="z-20">home</div>
      );
 }
  
