@@ -5,7 +5,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 const TinyBarChart=({data})=> {
     return (
         <BarChart width={400} height={150} data={data}>
-          <Bar dataKey="value" fill="#8884d8" />
+          <Bar dataKey="value" fill="#045149" barSize={25} />
         </BarChart>
     );
 };
