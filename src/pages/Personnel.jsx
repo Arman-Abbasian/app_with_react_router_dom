@@ -12,12 +12,12 @@ const Personnel = () => {
             {personnel.map(item=>{
                 return (
                     <Link key={item.id} to={`/personnel/${item.name}`}  state={data} >
-                        <div className="border">
-                            <div class="aspect-w-5 aspect-h-8">
-                                <img src={item.image} alt="personnel" class="w-full h-full object-center object-cover" />
+                        <div className="bg-project-light-sky rounded-md p-2">
+                            <div class="aspect-w-1 aspect-h-1 -mt-8">
+                                <img src={item.image} alt="personnel" class="w-full h-full object-center object-contain" />
                             </div>
                             <div className="flex-1">
-                                <h1>{item.name}</h1>
+                                <h1 className="font-bold">{item.name}</h1>
                                 <p> explicabo error ipsa tenetur quod quae. Unde modi alias aperiam Itaque, rerum ipsum.</p>
                             </div>
                         </div>
