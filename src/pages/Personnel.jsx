@@ -8,7 +8,7 @@ const Personnel = () => {
         {id:2,name:"logistic",image:"/image/logistic.png"},
     ]
     return ( 
-        <div className="flex justify-between items-center gap-4 container mx-auto max-w-2xl">
+        <div className="flex justify-between items-center gap-4 md:gap-8 lg:gap-20 container mx-auto max-w-5xl">
             {personnel.map(item=>{
                 return (
                     <Link key={item.id} to={`/personnel/${item.name}`}  state={data}>
