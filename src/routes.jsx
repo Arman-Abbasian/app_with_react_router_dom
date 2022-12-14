@@ -9,6 +9,7 @@ import Profile1 from './pages/Profile1';
 import Profile2 from './pages/Profile2';
 import PersonnelKind from "./pages/PersonnelKind";
 import PersonnelUnit from "./pages/PersonnelUnit";
+import Person from "./pages/Person";
 
 const Routee = () => {
     return ( 
@@ -22,6 +23,7 @@ const Routee = () => {
             <Route path="/Personnel" element={<Personnel />} />
             <Route path="/personnel/:kind" exact={true} element={<PersonnelKind />} />
             <Route path="/personnel/:kind/:unit"  element={<PersonnelUnit />} />
+            <Route path="/personnel/:kind/:unit/:person"  element={<Person />} />
             <Route path="/*" element={<NotFound />} />
         </Routes>
      );

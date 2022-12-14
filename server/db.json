@@ -4,15 +4,81 @@
       "id": 1,
       "name": "Ali momeni",
       "age": 20,
+      "record":5,
+      "position":"assembly operator",
       "kind":"producer",
-      "unit":"assembly"
+      "unit":"assembly",
+      "image":"/image/personnel/pressing.png"
     },
     {
       "id": 2,
+      "name": "Mobin Motaghi",
+      "age": 20,
+      "record":1,
+      "position":"assembly operator",
+      "kind":"producer",
+      "unit":"assembly",
+      "image":"/image/personnel/pressing.png"
+    },
+    {
+      "id": 3,
+      "name": "Jaber Adineh",
+      "age": 20,
+      "record":3,
+      "position":"assembly operator",
+      "kind":"producer",
+      "unit":"assembly",
+      "image":"/image/personnel/pressing.png"
+    },
+    {
+      "id": 4,
+      "name": "Ali Moalem",
+      "age": 20,
+      "record":2,
+      "position":"assembly supervisor",
+      "kind":"producer",
+      "unit":"assembly",
+      "image":"/image/personnel/pressing.png"
+    },
+    {
+      "id": 5,
       "name": "sorena javadi",
       "age": 40,
+      "record":2,
+      "position":"pressing supervisor",
       "kind":"producer",
-      "unit":"pressing"
+      "unit":"pressing",
+      "image":"/image/personnel/welding.png"
+    },
+    {
+      "id": 6,
+      "name": "saeed sadeghi",
+      "age": 35,
+      "record":8,
+      "position":"pressing operator",
+      "kind":"producer",
+      "unit":"pressing",
+      "image":"/image/personnel/welding.png"
+    },
+    {
+      "id": 7,
+      "name": "hadi momeni",
+      "age": 40,
+      "record":6,
+      "position":"pressing operator",
+      "kind":"producer",
+      "unit":"pressing",
+      "image":"/image/personnel/welding.png"
+    },
+    {
+      "id": 8,
+      "name": "ramin arghandeh",
+      "age": 30,
+      "record":2,
+      "position":"pressing operator",
+      "kind":"producer",
+      "unit":"pressing",
+      "image":"/image/personnel/welding.png"
     },
     {
       "id": 3,
