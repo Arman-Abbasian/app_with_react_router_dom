@@ -8,10 +8,10 @@ const Personnel = () => {
         {id:2,name:"logistic",image:"/image/logistic.png"},
     ]
     return ( 
-        <div className="flex justify-between items-center gap-4">
+        <div className="flex justify-between items-center gap-4 container mx-auto max-w-2xl">
             {personnel.map(item=>{
                 return (
-                    <Link key={item.id} to={`/personnel/${item.name}`}  state={data} >
+                    <Link key={item.id} to={`/personnel/${item.name}`}  state={data}>
                         <div className="bg-project-light-sky rounded-md p-2">
                             <div class="aspect-w-1 aspect-h-1 -mt-8">
                                 <img src={item.image} alt="personnel" class="w-full h-full object-center object-contain" />

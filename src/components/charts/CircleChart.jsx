@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import React from 'react';
+import { PieChart, Pie, Cell } from 'recharts';
 
 
 const COLORS = ['#045149', 'white'];
@@ -7,7 +7,7 @@ const COLORS = ['#045149', 'white'];
 const CircleChartt=({data})=> {
 
     return (
-      <PieChart width={400} height={200} >
+      <PieChart width={400} height={160} >
         <Pie
           data={data}
           innerRadius={60}
