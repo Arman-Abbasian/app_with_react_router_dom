@@ -34,11 +34,21 @@ const PersonnelKind = () => {
         if(!units.loading && units.error) return <p>l{units.error}</p>
         if(!units.loading && !units.error && units.data) 
        return units.data.map((item,index)=>{
-            return <Link key={index} to={`/personnel/${kind}/${item}`}>{item}</Link>
+            return  <div className="bg-project-light-sky rounded-md p-2">
+                        <Link key={index} to={`/personnel/${kind}/${item}`}>
+                            <div class="aspect-w-1 aspect-h-1">
+                                <img src={`/image/units/${item}.png`} alt="personnel" class="w-full h-full object-center object-contain" />
+                            </div>
+                            <div className="flex justify-center items-center text-xl">
+                                <h1 className="font-bold">{item} unit</h1>
+                            </div>
+                        </Link>
+                    </div>
+           
         })
     }
     return ( 
-        <div>{rendering()}</div>
+        <div className="grid grid-cols-2 lg:grid-cols-3 container mx-auto max-w-5xl items-center gap-8">{rendering()}</div>
      );
 }
  

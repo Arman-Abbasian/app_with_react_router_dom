@@ -25,29 +25,29 @@
       "id": 4,
       "name": "sardar saremi",
       "age": 15,
-      "kind":"logistgtic",
+      "kind":"logistic",
       "unit":"security"
     },
     {
       "id": 5,
       "name": "ardavan bahrami",
       "age": 45,
-      "kind":"logistgtic",
+      "kind":"logistic",
       "unit":"pm"
     },
     {
       "id": 6,
       "name": "ardavan bahrami",
       "age": 45,
-      "kind":"logistgtic",
+      "kind":"logistic",
       "unit":"official"
     },
     {
       "id": 7,
       "name": "mahmood bahrami",
       "age": 45,
-      "kind":"logistgtic",
-      "unit":"transport"
+      "kind":"logistic",
+      "unit":"transportation"
     }
   ]
 }
