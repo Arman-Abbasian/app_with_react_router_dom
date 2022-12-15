@@ -74,3 +74,17 @@ export const dataHomeLine = [
     { name: 'November', value: 20 },
     { name: 'December', value: 40 },
   ];
+  export const NumberOfProduct=[
+    { name: 'January', value: 80000 },
+    { name: 'February', value: 200000 },
+    { name: 'March', value: 4000000 },
+    { name: 'April', value: 6000000 },
+    { name: 'May', value: 1000000 },
+    { name: 'June', value: 100000 },
+    { name: 'July', value: 3000000 },
+    { name: 'August', value: 3000000 },
+    { name: 'September', value: 6000000 },
+    { name: 'October', value: 8000000 },
+    { name: 'November', value: 200000 },
+    { name: 'December', value: 4000000 },
+  ];
