@@ -16,16 +16,16 @@ const Home = () => {
     const {location}=useParams();
     console.log(location)
     return ( 
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-3 mb-40">
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4"><TinyLineChart data={NumberOfProduct} title={"number of production"} /></div>
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4"><SameDataComposedChart data={cusotmerFinacial} /></div>
-            <div className="md:col-span-1 lg:col-span-2 bg-project-light-sky flex justify-center items-center rounded-md p-4"><PieChartt data={onTimeDelivery} /></div>
-            <div className="md:col-span-1 lg:col-span-2 bg-project-light-sky flex justify-center items-center rounded-md p-4"><PieChartt data={productsQuality} /></div>
-            <div className="md:col-span-2 lg:col-span-2 bg-project-light-sky flex justify-center items-center rounded-md p-4"><PieChartt data={onTimeDelivery} /></div>
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4"><CircleChartt data={cusotmerFinacial} /></div>
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4"><TinyBarChart data={OEE} /></div>
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4 lg:mb-20"><BarChrartWithBG /></div>
-            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky flex justify-center items-center rounded-md p-4 mb-20"><SimpleRadarChart data={cusotmerFinacial}/></div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-3">
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky rounded-md p-4 max-w-full"><TinyLineChart data={NumberOfProduct} title={"number of production"} /></div>
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky"><SameDataComposedChart data={cusotmerFinacial} /></div>
+            <div className="md:col-span-1 lg:col-span-2 bg-project-light-sky"><PieChartt data={onTimeDelivery} /></div>
+            <div className="md:col-span-1 lg:col-span-2 bg-project-light-sky"><PieChartt data={productsQuality} /></div>
+            <div className="md:col-span-2 lg:col-span-2 bg-project-light-sky"><PieChartt data={onTimeDelivery} /></div>
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky"><CircleChartt data={cusotmerFinacial} /></div>
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky"><TinyBarChart data={OEE} /></div>
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky"><BarChrartWithBG /></div>
+            <div className="md:col-span-2 lg:col-span-3 bg-project-light-sky"><SimpleRadarChart data={cusotmerFinacial}/></div>
             
         </div>
      );
