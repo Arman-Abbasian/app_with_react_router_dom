@@ -85,35 +85,40 @@
       "name": "miad sepehri",
       "age": 10,
       "kind":"logistic",
-      "unit":"storage"
+      "unit":"storage",
+      "image":"/image/personnel/welding.png"
     },
     {
       "id": 4,
       "name": "sardar saremi",
       "age": 15,
       "kind":"logistic",
-      "unit":"security"
+      "unit":"security",
+      "image":"/image/personnel/welding.png"
     },
     {
       "id": 5,
       "name": "ardavan bahrami",
       "age": 45,
       "kind":"logistic",
-      "unit":"pm"
+      "unit":"pm",
+      "image":"/image/personnel/welding.png"
     },
     {
       "id": 6,
       "name": "ardavan bahrami",
       "age": 45,
       "kind":"logistic",
-      "unit":"official"
+      "unit":"official",
+      "image":"/image/personnel/welding.png"
     },
     {
       "id": 7,
       "name": "mahmood bahrami",
       "age": 45,
       "kind":"logistic",
-      "unit":"transportation"
+      "unit":"transportation",
+      "image":"/image/personnel/welding.png"
     }
   ]
 }

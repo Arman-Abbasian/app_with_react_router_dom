@@ -10,6 +10,8 @@ import Profile2 from './pages/Profile2';
 import PersonnelKind from "./pages/PersonnelKind";
 import PersonnelUnit from "./pages/PersonnelUnit";
 import Person from "./pages/Person";
+import ProducerPersonnel from "./pages/ProducerPersonnel";
+import LogisticPersonnel from "./pages/LogisticPersonnel";
 
 const Routee = () => {
     return ( 
@@ -17,8 +19,8 @@ const Routee = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/profile/*" element={<Profile />}>
-                <Route path="1" element={<Profile1 />} />
-                <Route path="2" element={<Profile2 />} />
+                <Route path="producerPersonnel" element={<ProducerPersonnel />} />
+                <Route path="logisticPersonnel" element={<LogisticPersonnel />} />
             </Route>
             <Route path="/Personnel" element={<Personnel />} />
             <Route path="/personnel/:kind" exact={true} element={<PersonnelKind />} />
