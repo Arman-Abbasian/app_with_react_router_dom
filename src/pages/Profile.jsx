@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import { Link, Outlet } from "react-router-dom";
-import PersonnelCarousel from "../components/personnelCarousel";
+import PersonnelCarousel from "../components/personnellAvatar";
 import LogisticPersonnel from "./LogisticPersonnel";
 import ProducerPersonnel from "./ProducerPersonnel";
 const Profile = () => {
@@ -26,8 +26,8 @@ const Profile = () => {
     },[]);
     return ( 
         <div className="flex flex-col gap-8 justify-center items-center">
-            <div className="flex justify-between items-center flex-wrap gap-4 mb-10">
-                <div className="w-full flex justify-center items-center bg-project-light-sky">
+            <div className="flex justify-between items-center flex-wrap gap-4 mb-10 w-full">
+                <div className="w-full flex justify-center items-center bg-project-light-sky rounded-sm p-2">
                     {wholePersonnel && 
                         <Link to={`/profile/allPersonnel`}>
                         <h2 className="text-center mb-2">whole Personnel</h2>
@@ -52,7 +52,7 @@ const Profile = () => {
                     }
                 </div>
             </div>
-            <Outlet />
+                <Outlet />
         </div>
      );
 }

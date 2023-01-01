@@ -8,7 +8,7 @@
       "position":"assembly operator",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/pressing.png"
+      "image":"/image/personnel/person2.png"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "position":"assembly operator",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/pressing.png"
+      "image":"/image/personnel/person3.png"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
       "position":"assembly supervisor",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/pressing.png"
+      "image":"/image/personnel/person6.png"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "position":"pressing supervisor",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person3.png"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "position":"pressing operator",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person2.png"
     },
     {
       "id": 7,
@@ -78,47 +78,117 @@
       "position":"pressing operator",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person5.png"
     },
     {
-      "id": 3,
+      "id": 9,
       "name": "miad sepehri",
       "age": 10,
+      "record":2,
+      "position":"store manager",
       "kind":"logistic",
       "unit":"storage",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person1.png"
     },
     {
-      "id": 4,
+      "id": 10,
+      "name": "jalil damoon",
+      "age": 10,
+      "record":2,
+      "position":"store operator",
+      "kind":"logistic",
+      "unit":"storage",
+      "image":"/image/personnel/person3.png"
+    },
+    {
+      "id": 11,
+      "name": "ali damoon",
+      "age": 10,
+      "record":2,
+      "position":"store operator",
+      "kind":"logistic",
+      "unit":"storage",
+      "image":"/image/personnel/person1.png"
+    },
+    {
+      "id": 12,
       "name": "sardar saremi",
       "age": 15,
+      "record":2,
+      "position":"responsible for security",
       "kind":"logistic",
       "unit":"security",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person4.png"
     },
     {
-      "id": 5,
-      "name": "ardavan bahrami",
+      "id": 13,
+      "name": "shahed ahoora",
+      "age": 30,
+      "record":2,
+      "position":"responsible for security",
+      "kind":"logistic",
+      "unit":"security",
+      "image":"/image/personnel/person5.png"
+    },
+    {
+      "id": 14,
+      "name": "baman behmaram",
       "age": 45,
+      "record":2,
+      "position":"pm supervisor",
       "kind":"logistic",
       "unit":"pm",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person6.png"
     },
     {
-      "id": 6,
+      "id": 15,
       "name": "ardavan bahrami",
       "age": 45,
+      "record":2,
+      "position":"pm operator",
       "kind":"logistic",
-      "unit":"official",
-      "image":"/image/personnel/welding.png"
+      "unit":"pm",
+      "image":"/image/personnel/person3.png"
     },
     {
-      "id": 7,
+      "id": 16,
+      "name": "ahmad hami",
+      "age": 45,
+      "record":2,
+      "position":"secretery",
+      "kind":"logistic",
+      "unit":"official",
+      "image":"/image/personnel/person2.png"
+    },
+    {
+      "id": 17,
+      "name": "sara shariaty",
+      "age": 45,
+      "record":2,
+      "position":"secretery",
+      "kind":"logistic",
+      "unit":"official",
+      "image":"/image/personnel/person5.png"
+    },
+    {
+      "id": 18,
       "name": "mahmood bahrami",
       "age": 45,
+      "record":2,
+      "position":"lifttrack driver",
       "kind":"logistic",
       "unit":"transportation",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/person1.png"
+    },
+    {
+      "id": 19,
+      "name": "raman shahi",
+      "age": 45,
+      "record":2,
+      "position":"lifttrack driver",
+      "kind":"logistic",
+      "unit":"transportation",
+      "image":"/image/personnel/person6.png"
     }
   ]
 }
