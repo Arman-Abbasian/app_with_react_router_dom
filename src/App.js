@@ -5,7 +5,7 @@ import Layout from './Layout/Layout';
 
 function App() {
   return (
-   <div className='w-screen h-screen p-4 container mx-auto max-w-7xl'>
+   <div className='p-4 container mx-auto'>
       <Layout>      
           <Routee />
       </Layout>

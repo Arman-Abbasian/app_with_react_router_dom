@@ -8,7 +8,9 @@
       "position":"assembly operator",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/person2.png"
+      "image":"/image/personnel/person2.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "position":"assembly operator",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/person3.png"
+      "image":"/image/personnel/person3.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "position":"assembly operator",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/pressing.png"
+      "image":"/image/personnel/pressing.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 4,
@@ -38,7 +44,9 @@
       "position":"assembly supervisor",
       "kind":"producer",
       "unit":"assembly",
-      "image":"/image/personnel/person6.png"
+      "image":"/image/personnel/person6.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "position":"pressing supervisor",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/person3.png"
+      "image":"/image/personnel/person3.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 6,
@@ -58,7 +68,9 @@
       "position":"pressing operator",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/person2.png"
+      "image":"/image/personnel/person2.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 7,
@@ -68,7 +80,9 @@
       "position":"pressing operator",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/welding.png"
+      "image":"/image/personnel/welding.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 8,
@@ -78,7 +92,9 @@
       "position":"pressing operator",
       "kind":"producer",
       "unit":"pressing",
-      "image":"/image/personnel/person5.png"
+      "image":"/image/personnel/person5.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 9,
@@ -88,7 +104,9 @@
       "position":"store manager",
       "kind":"logistic",
       "unit":"storage",
-      "image":"/image/personnel/person1.png"
+      "image":"/image/personnel/person1.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 10,
@@ -98,7 +116,9 @@
       "position":"store operator",
       "kind":"logistic",
       "unit":"storage",
-      "image":"/image/personnel/person3.png"
+      "image":"/image/personnel/person3.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 11,
@@ -108,7 +128,9 @@
       "position":"store operator",
       "kind":"logistic",
       "unit":"storage",
-      "image":"/image/personnel/person1.png"
+      "image":"/image/personnel/person1.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 12,
@@ -118,7 +140,9 @@
       "position":"responsible for security",
       "kind":"logistic",
       "unit":"security",
-      "image":"/image/personnel/person4.png"
+      "image":"/image/personnel/person4.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 13,
@@ -128,7 +152,9 @@
       "position":"responsible for security",
       "kind":"logistic",
       "unit":"security",
-      "image":"/image/personnel/person5.png"
+      "image":"/image/personnel/person5.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 14,
@@ -138,7 +164,9 @@
       "position":"pm supervisor",
       "kind":"logistic",
       "unit":"pm",
-      "image":"/image/personnel/person6.png"
+      "image":"/image/personnel/person6.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 15,
@@ -148,7 +176,9 @@
       "position":"pm operator",
       "kind":"logistic",
       "unit":"pm",
-      "image":"/image/personnel/person3.png"
+      "image":"/image/personnel/person3.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 16,
@@ -158,7 +188,9 @@
       "position":"secretery",
       "kind":"logistic",
       "unit":"official",
-      "image":"/image/personnel/person2.png"
+      "image":"/image/personnel/person2.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 17,
@@ -168,7 +200,9 @@
       "position":"secretery",
       "kind":"logistic",
       "unit":"official",
-      "image":"/image/personnel/person5.png"
+      "image":"/image/personnel/person5.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 18,
@@ -178,7 +212,9 @@
       "position":"lifttrack driver",
       "kind":"logistic",
       "unit":"transportation",
-      "image":"/image/personnel/person1.png"
+      "image":"/image/personnel/person1.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     },
     {
       "id": 19,
@@ -188,7 +224,9 @@
       "position":"lifttrack driver",
       "kind":"logistic",
       "unit":"transportation",
-      "image":"/image/personnel/person6.png"
+      "image":"/image/personnel/person6.png",
+      "performance":[{"name":"January","value":80},{"name":"February","value":60},{"name":"March","value":50},{"name":"April","value":60},{"name":"May","value":55},{"name":"June","value":90},
+      {"name":"July","value":100},{"name":"August","value":45},{"name":"September","value":78},{"name":"October","value":85},{"name":"November","value":65},{"name":"December","value":80}]
     }
   ]
 }
