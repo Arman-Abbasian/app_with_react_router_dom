@@ -27,9 +27,9 @@ const Profile = () => {
     return ( 
         <div className="flex flex-col gap-8 justify-center items-center">
             <div className="flex justify-between items-center flex-wrap gap-4 mb-10">
-                <div className="w-full flex justify-center items-center">
+                <div className="w-full flex justify-center items-center bg-project-light-sky">
                     {wholePersonnel && 
-                        <Link to={`/profile/producerPersonnel`}>
+                        <Link to={`/profile/allPersonnel`}>
                         <h2 className="text-center mb-2">whole Personnel</h2>
                         <PersonnelCarousel personnel={wholePersonnel} />
                     </Link>

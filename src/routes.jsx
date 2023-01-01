@@ -5,13 +5,12 @@ import Profile from './pages/Profile';
 import React from "react";
 import NotFound from "./pages/NotFound";
 import Personnel from "./pages/Personnel";
-import Profile1 from './pages/Profile1';
-import Profile2 from './pages/Profile2';
 import PersonnelKind from "./pages/PersonnelKind";
 import PersonnelUnit from "./pages/PersonnelUnit";
 import Person from "./pages/Person";
 import ProducerPersonnel from "./pages/ProducerPersonnel";
 import LogisticPersonnel from "./pages/LogisticPersonnel";
+import AllPersonnel from "./pages/AllPersonnel";
 
 const Routee = () => {
     return ( 
@@ -19,6 +18,7 @@ const Routee = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/profile/*" element={<Profile />}>
+                <Route path="allPersonnel" element={<AllPersonnel />} />
                 <Route path="producerPersonnel" element={<ProducerPersonnel />} />
                 <Route path="logisticPersonnel" element={<LogisticPersonnel />} />
             </Route>
