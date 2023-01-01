@@ -12,10 +12,10 @@ const ProducerPersonnel = () => {
     },[]);
 
     return ( 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {wholeProducerPersonnel && 
                 wholeProducerPersonnel.map(item=>(
-                    <PersonnelCard name={item.name} unit={item.unit }position={item.position} image={item.image} />
+                    <PersonnelCard name={item.name} unit={item.unit} position={item.position} image={item.image} />
                 ))
             }
         </div>

@@ -11,10 +11,10 @@ const LogisticPersonnel = () => {
         .catch(err=>toast.error(err.message))
     },[]);
     return ( 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {wholeLogisticPersonnel && 
                 wholeLogisticPersonnel.map(item=>(
-                    <PersonnelCard name={item.name} unit={item.unit }position={item.position} image={item.image} />
+                    <PersonnelCard name={item.name} unit={item.unit } position={item.position} image={item.image} />
                 ))
             }
         </div>
