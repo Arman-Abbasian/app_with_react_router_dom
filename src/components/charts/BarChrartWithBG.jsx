@@ -33,7 +33,7 @@ const BarChrartWithBG=({title})=> {
         <ResponsiveContainer width="100%" aspect={2}>
           <BarChart  data={data}>
             <Bar dataKey="pv" fill="#045149" background={{ fill: '#eee' }} barSize={25}  />
-            <Tooltip />
+            <Tooltip cursor={false} />
             <XAxis dataKey="name" tickSize={2} tick={{stroke: '#045149', strokeWidth: 1,fontSize:8}} />
           </BarChart>
         </ResponsiveContainer>

@@ -60,6 +60,12 @@ export const dataHomeLine = [
     { name: 'BMW', value: 400000 },
     { name: 'Toyota', value: 600000 },
   ];
+  export const cusotmerOrder=[
+    { name: 'Benz', value: 10000 },
+    { name: 'Audi', value: 6000 },
+    { name: 'BMW', value: 9000 },
+    { name: 'Toyota', value: 6000},
+  ];
   export const Efficiency=[
     { name: 'January', value: 80 },
     { name: 'February', value: 20 },
@@ -89,16 +95,16 @@ export const dataHomeLine = [
     { name: 'December', value: 4000000 },
   ];
   export const ppm=[
-    { name: 'January', ppm: 500,numberOfScrap:3000 },
-    { name: 'February', ppm: 400,numberOfScrap:10000 },
+    { name: 'January', ppm: 500,numberOfScrap:300 },
+    { name: 'February', ppm: 400,numberOfScrap:1000 },
     { name: 'March', ppm: 200 ,numberOfScrap:4000},
-    { name: 'April', ppm: 200,numberOfScrap:9000 },
+    { name: 'April', ppm: 200,numberOfScrap:900 },
     { name: 'May', ppm: 800,numberOfScrap:7000 },
-    { name: 'June', ppm: 1000,numberOfScrap:4000 },
+    { name: 'June', ppm: 1000,numberOfScrap:400 },
     { name: 'July', ppm: 400,numberOfScrap:800 },
-    { name: 'August', ppm: 300,numberOfScrap:3000 },
-    { name: 'September', ppm: 200,numberOfScrap:2000 },
-    { name: 'October', ppm: 100 ,numberOfScrap:1000},
-    { name: 'November', ppm: 200,numberOfScrap:7000 },
-    { name: 'December', ppm: 400,numberOfScrap:3000 },
+    { name: 'August', ppm: 900,numberOfScrap:300 },
+    { name: 'September', ppm: 200,numberOfScrap:200 },
+    { name: 'October', ppm: 100 ,numberOfScrap:100},
+    { name: 'November', ppm: 200,numberOfScrap:700 },
+    { name: 'December', ppm: 400,numberOfScrap:300 },
   ];
