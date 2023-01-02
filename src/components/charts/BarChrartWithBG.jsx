@@ -46,12 +46,17 @@ const data = [
   },
 ];
 
-const BarChrartWithBG=()=> {
+const BarChrartWithBG=({title})=> {
 
     return (
-        <BarChart width={400} height={150} data={data}>
-          <Bar dataKey="pv" fill="#045149" background={{ fill: '#eee' }} barSize={25}  />
-        </BarChart>
+      <div className='flex flex-col gap-4'>
+        <h2 className='mb-4 text-center lg:font-bold sm:text-sm md:text-lg lg:text-2xl'>{title}</h2>
+        <ResponsiveContainer width="100%" aspect={2}>
+          <BarChart  data={data}>
+            <Bar dataKey="pv" fill="#045149" background={{ fill: '#eee' }} barSize={25}  />
+          </BarChart>
+        </ResponsiveContainer>
+        </div>
     );
   }
 export default BarChrartWithBG;

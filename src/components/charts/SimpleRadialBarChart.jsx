@@ -46,19 +46,22 @@ const data = [
   },
 ];
 
- const SimpleRadialBarChart=()=> {
+ const SimpleRadialBarChart=({title})=> {
 
     return (
-      <ResponsiveContainer width="100%" height="100%">
-        <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
-          <RadialBar
-            background
-            clockWise
-            dataKey="pv"
-          />
-          <Legend iconSize={10}  verticalAlign="bottom"  />
-        </RadialBarChart>
-      </ResponsiveContainer>
+      <div className='flex flex-col gap-4'>
+        <h2 className='mb-4 text-center lg:font-bold sm:text-sm md:text-lg lg:text-2xl'>{title}</h2>
+        <ResponsiveContainer width="100%" aspect={2}>
+          <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
+            <RadialBar
+              background
+              clockWise
+              dataKey="pv"
+            />
+            <Legend iconSize={10}  verticalAlign="bottom"  />
+          </RadialBarChart>
+        </ResponsiveContainer>
+      </div>
     );
   }
   export default SimpleRadialBarChart;
