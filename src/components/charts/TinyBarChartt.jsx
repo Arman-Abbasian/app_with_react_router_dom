@@ -9,6 +9,8 @@ const TinyBarChart=({data,title})=> {
         <ResponsiveContainer width="100%" aspect={2}>
           <BarChart  data={data}>
             <Bar dataKey="value" fill="#045149" barSize={25} />
+            <Tooltip />
+            <XAxis dataKey="name" tickSize={2} tick={{stroke: '#045149', strokeWidth: 1,fontSize:8}} />
           </BarChart>
         </ResponsiveContainer>
       </div>
