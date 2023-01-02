@@ -9,10 +9,10 @@ const AboutUs = () => {
          prose-a:text-blue-400 prose-a:no-underline prose-a:leading-10
           prose-p:text-black
         ">
-            <img src="image/personnel/pressing.png" className=" !rounded-full ring-4 ring-project-dark-green   ring-offset-4 ring-offset-project-light-sky " />
+            <img src="image/personnel/pressing.png" className=" !rounded-full ring-4 ring-project-dark-green ring-offset-4 ring-offset-project-light-sky " />
             <h1>SISAKO</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi rerum eos dolor numquam? Suscipit in itaque quidem molestias deleniti asperiores, voluptates eos <a href="#">Link</a> culpa quam labore aliquam, neque, consequuntur natus.</p>
-            <figure><div className="aspect-w-6 aspect-h-4 mb-10"><img src="/image/aboutUs/pressing saloon 2.webp"/></div><figcaption>Fig.1 - pressing saloon</figcaption></figure>
+            <figure><div className="aspect-w-6 aspect-h-4 mb-10"><img src="/image/aboutUs/pressing saloon2.webp"/></div><figcaption>Fig.1 - pressing saloon</figcaption></figure>
             <p>Lorem ipsum, dolor sit amet <span><img src="/image/personnel/pressing.png" className="!w-5 !h-5 !m-0 !rounded-full  ring-1 ring-project-light-sky  inline"/></span> consectetur adipisicing elit. Ipsa deleniti neque quos eum cumque <a href="#">Link</a> voluptatibus incidunt officia sunt voluptates ipsam iure blanditiis delectus fugit similique laudantium doloribus cum, rem veritatis?</p>
             <h2>sisako 1</h2>
             <h3>sisako 1-1</h3>
