@@ -12,7 +12,7 @@ const Profile = () => {
     useEffect(()=>{
         axios({
             method: 'GET',
-            url: `https://my-json-server.typicode.com/Arman-Abbasian/app_with_react_router_dom`,
+            url: `https://my-json-server.typicode.com/Arman-Abbasian/app_with_react_router_dom_DB`,
             maxContentLength: 100000000,
             maxBodyLength: 1000000000})
         .then(res=>setWholePersonnel(res.data))
