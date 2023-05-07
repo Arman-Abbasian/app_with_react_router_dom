@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Routee from './routes';
 import Layout from './Layout/Layout';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
