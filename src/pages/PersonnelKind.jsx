@@ -37,7 +37,7 @@ const PersonnelKind = () => {
             return  <div className="bg-project-light-sky rounded-md p-2">
                         <Link key={index} to={`/personnel/${kind}/${item}`}>
                             <div class="aspect-w-1 aspect-h-1">
-                                <img src={`/image/units/${item}.png`} alt="personnel" class="w-full h-full object-center object-contain" />
+                                <img src={`image/units/${item}.png`} alt="personnel" class="w-full h-full object-center object-contain" />
                             </div>
                             <div className="flex justify-center items-center text-xl">
                                 <h1 className="font-bold">{item} unit</h1>
