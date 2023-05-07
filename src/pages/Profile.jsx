@@ -10,7 +10,11 @@ const Profile = () => {
     const[wholeLogisticPersonnel,setWholeLogisticPersonnel]=useState(null);
     const[wholeProducerPersonnel,setWholeProducerPersonnel]=useState(null);
     useEffect(()=>{
-        axios.get(`http://localhost:4000/personnel`)
+        axios({
+            method: 'GET',
+            url: `https://my-json-server.typicode.com/Arman-Abbasian/app_with_react_router_dom`,
+            maxContentLength: 100000000,
+            maxBodyLength: 1000000000})
         .then(res=>setWholePersonnel(res.data))
         .catch(err=>toast.error(err.message))
     },[]);
