@@ -11,6 +11,15 @@
 <p width="960" style="padding-right: 10px;" align="left" >json-server</p>
 <p width="960" style="padding-right:40px;" align="left" >react-hot-toast</p>
 
+# summary of project
+In this project i worked on a website that has a introduction section and performace sections to show the performance of personnels and performance on some key indexes of a company. 
+
+# overview of project
+
+<a href="https://www.youtube.com/watch?v=kXAPukCUw3s
+" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/003/399/771/original/youtube-icon-editorial-free-vector.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
